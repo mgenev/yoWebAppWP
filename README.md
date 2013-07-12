@@ -11,7 +11,7 @@ To see the available tasks:
 <pre>grunt --help</pre> 
 they should be the same as the officially supported webapp generator.
 
-Caveat - grunt server opens localhost:9000 but you actually need just localhost with no port.
+Caveat - grunt server opens localhost:9000 but you actually need just localhost with no port. Will be fixing this shortly.
 
 Then hit the /app/wordpress/index.php and it should prompt you to set up the database.
 
