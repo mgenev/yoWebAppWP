@@ -9,7 +9,11 @@ You have to have the full stack to run "yo webapp" plus a working php, apache an
 
 To see the available tasks:
 <pre>grunt --help</pre> 
-they should be the same as the officially supported webapp generator. 
+they should be the same as the officially supported webapp generator.
+
+Caveat - grunt server opens localhost:9000 but you actually need just localhost with no port.
+
+Then hit the /app/wordpress/index.php and it should prompt you to set up the database.
 
 The intent here is to have the ability to create a modern UI with dependency management and all the optimization which yeoman provides and then consume those assets from your wordpress theme as easily as setting the right path. This opens the doors to a whole new generation of WP theming with the latest technology for UI.
 
