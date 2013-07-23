@@ -7,6 +7,9 @@ Instructions
 This is the same webapp from the original webapp generator https://github.com/yeoman/generator-webapp with added PHP support and a wordpress installation as a subfolder of the /app folder.
 You have to have the full stack to run "yo webapp" plus a working php, apache and mysql installation. Then clone this repo then modify your root directory in apache's httpd.conf to point to the path to the /app folder where the original index.php is with 'allo 'allo and all the other stuff.
 
+After getting the repo run:
+<pre> npm install && bower install </pre>
+
 To see the available tasks:
 <pre>grunt --help</pre> 
 they should be the same as the officially supported webapp generator.
